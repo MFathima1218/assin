@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family:"karla",sans-serif ;
+}
+.jc
+{
+   background-color: bisque;
+    height: 50vh;
+    
+}
+.common{
+    width: 50%;
+    height: 50vh;
+    float: left;
+}
+h1{
+    color: cornflowerblue;
+}
+ h2 {color: darkgoldenrod ;}
+.ms{
+    
+    background-color: cornflowerblue;
+
+}
+.wc{
+    background-color: lightslategray;
+}
+button{background-color: gold;}
