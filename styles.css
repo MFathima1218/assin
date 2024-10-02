@@ -1,7 +1,7 @@
 body{
     background-color: snow;
-    height: 100vh;
-    width: 100%;
+    /* height: 100vh;
+    width: 100%; */
 }
 
 .box1{
@@ -9,6 +9,7 @@ body{
     margin: 20px;
     padding: 10px;
     font-size: 20px;
+   
 }
 .box1 h1{
    color: rgb(29, 218, 218);
@@ -23,22 +24,21 @@ body{
 }
 .part2{
     color: snow;
-    width: 50%;
-    height: 50vh;
     display: flex;
-    
-    
+    flex-direction: row;
 }
 .box2{
-    padding: 50px;
     background-color: rgb(56, 180, 180);
+    width: 650px;
+    height: 250px;
+    padding: 40px;
 }
 .span{
     font-size:30px;
     
 }
 .box2 button{
-    padding: 20px 80px 20px 80px;
+    padding: 30px 160px 20px 160px;
     background-color: yellowgreen;
     color: snow;
     border: none;
@@ -46,6 +46,8 @@ body{
 }
 .box3{
     display: inline-block;
-    padding: 40px 80px 40px 40px;
+    padding: 40px 40px 40px 40px;
     background-color: rgb(46, 212, 212);
+    width: 650px;
+    height: 250px;
 }
