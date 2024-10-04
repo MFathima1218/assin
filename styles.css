@@ -1,53 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
+    font-family: "karla", sans-serif ;
+    height: 100vh;
+}
+.part1{
+    height: 40%;
+    width: 100%;
+    padding: 40px;
     background-color: snow;
-    /* height: 100vh;
-    width: 100%; */
 }
-
-.box1{
-    display: inline;
-    margin: 20px;
-    padding: 10px;
+.join{
     font-size: 20px;
-   
+    font-weight: bold;
+    color: rgb(84, 209, 209);
 }
-.box1 h1{
-   color: rgb(29, 218, 218);
-   
+.sub-heading{
+    padding-top: 20px;
+    font-size: 20px;
+    color: yellowgreen;
 }
-.box1 h3{
-    
-    color: rgb(196, 220, 74);
+.description{
+   line-height: 28px;
+    color: gray;
+    padding: 20px 20px 2px 0;
 }
-.box1 p{
-    color: grey;
-}
-.part2{
-    color: snow;
+.part2{ 
+    height: 60%;
     display: flex;
-    flex-direction: row;
+    color: snow;
 }
 .box2{
-    background-color: rgb(56, 180, 180);
-    width: 650px;
-    height: 250px;
-    padding: 40px;
+    width: 50%;
+    background-color: rgb(58, 159, 159);
+    padding: 45px;
+}
+.l1{
+   font-size: 18px;
+   padding-bottom:20px ;
+}
+.l2 {
+    font-size: 15px;
+    color: rgb(205, 223, 225);
+    padding-bottom: 5px;
 }
 .span{
     font-size:30px;
-    
+    color: whitesmoke;
+    font-weight: bold;
+    padding:10px;
+}
+.l3{
+    padding:20px 0 25px 0;
 }
 .box2 button{
-    padding: 30px 160px 20px 160px;
+    padding: 20px 95px 20px 95px;
     background-color: yellowgreen;
-    color: snow;
+    color:rgb(232, 227, 227);
     border: none;
     border-radius: 3px;
 }
 .box3{
-    display: inline-block;
-    padding: 40px 40px 40px 40px;
-    background-color: rgb(46, 212, 212);
-    width: 650px;
-    height: 250px;
+    width: 50%;
+    background-color: rgb(53, 169, 169);
+}
+.box3{
+    padding: 45px;
+}
+.why-us{
+    font-size: 18px;
+    padding-bottom: 20px;
+    /* font-weight: bold; */
+}
+.tutor{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(205, 223, 225);
 }
